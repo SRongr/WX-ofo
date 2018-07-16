@@ -1,0 +1,9 @@
+<!--preject/chongzhi/chongzhi.wxml-->
+
+<view class = "container">
+  <view class='content'>
+    <text>请输入充值金额</text>
+    <input bindinput='input'></input>
+    <button class='btn' bindtap='inputBtn'>充值</button>
+  </view>
+</view>

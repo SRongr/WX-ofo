@@ -1,0 +1,9 @@
+<view class = "container">
+  <text>开锁密码</text>
+  <text class='password'>{{password}}</text>
+  <view class='foot'>请使用密码解锁,{{time}}秒后开始计费
+    <view>车辆有问题？<text class='text-baozhang'>回首页车辆报障</text> 
+    </view>
+  </view>
+
+</view>

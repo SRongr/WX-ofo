@@ -1,0 +1,20 @@
+<view class="container">
+  <view class='userInfo'>
+    <block wx:if="{{userInfo.userUrl !== ''}}">
+      <view class='img'>
+        <image src='{{userInfo.userUrl}}'></image>
+      </view>
+
+    </block>
+    <view class='userName'>{{userInfo.nickName}}</view>
+  </view>
+  
+  <block wx:if="{{userInfo.userUrl !=''}}">
+    <view class='my-wallet' bindtap='myWallet'>
+      <text>我的钱包</text>
+      <text>></text>
+    </view>
+  </block>
+  <button type='{{btnType}}' class='btn-login' bindtap='btnLoad' open-type='getUserInfo' bindgetuserinfo='getuserInfo'>{{btnText}}</button>
+
+</view>

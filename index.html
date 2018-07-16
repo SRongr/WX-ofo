@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 0;
+        }
+        span{
+            vertical-align: baseline;
+            /* height:20px; */
+            line-height:20px;
+            font-size: 40px;
+            
+        }
+        div{
+            /* text-align: center; */
+            /* vertical-align: top; */
+            background-color: #fcc;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./images/marker.png" alt="">
+        <span>hello</span>
+    </div>
+    <script>
+    
+    setTimeout(function(){console.log(1000)},0);
+    new Promise(function(resolve){
+        console.log(376);
+        for(var i = 0; i < 10000; i ++){ 
+            i == 9999 && resolve()}
+            console.log(888)
+            }).then(function(){
+                console.log(240)
+            });
+            console.log(125)
+    
+
+            function fn(str){  
+                var len=str.length;  
+                // if(len<=3){
+                //     return str
+                // }  
+                var reg = /(?=(\B\d{3})+$)/g;  
+                return str.replace(reg,',')  
+            }  
+                
+    </script>
+</body>
+</html>

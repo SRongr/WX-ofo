@@ -1,0 +1,26 @@
+<view class="container">
+  <view class='balance'>
+    <view class='myBalance'>我的余额(元)</view>
+    <view class='balance-content'>{{balanceContent}}</view>
+    <view class='balance-info'>
+      <text bindtap='balanceInfoBtn'>余额说明</text>
+    </view>
+  </view>
+  <view class='btn'>
+    <button class='balanceBtn' bindtap='moveToChongzhi'>充值</button>
+  </view>
+  <view class='myInfo'>
+    <view class='carInfo' bindtap='carInfoBtn'>
+      <text>我的用车券</text>
+      <text>{{carInfo}}张></text>
+    </view>
+    <view class='yajin' bindtap='yajinBtn'>
+      <text>我的押金</text>
+      <text class='yellowText'>99元，押金退款 <text>></text></text>
+    </view>
+  </view>
+  <view class='about' bindtap='aboutBtn'>
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+</view>

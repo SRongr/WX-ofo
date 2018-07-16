@@ -1,0 +1,70 @@
+.container{
+  width: 100%;
+  background-color:#f2f2f2;
+}
+.title{
+  font-size: 28rpx;
+  padding: 40rpx 20rpx 50rpx;
+}
+.choose-group{
+  padding: 100rpx;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choose-group .grid{
+  width: 47%;
+  padding: 20rpx 0;
+  border: 2rpx solid #000;
+  margin-top: 20rpx;
+  text-align: center;
+  border-radius: 6px;
+}
+.grid:first-child,.grid:nth-of-type(2){
+  margin-top:0;
+}
+.action-photo{
+  margin-top: 30rpx;
+  padding: 50rpx 0 40rpx 45rpx;
+  background-color:#fff;
+}
+.action-photo image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 25rpx;
+  position: relative;
+  overflow: visible;
+}
+.action-photo image icon{
+  position: absolute;
+  top: -20rpx;
+  right: -20rpx;
+}
+.action .action-photo .take-photos{
+  margin-left: 40rpx;
+  height: 120rpx;
+  width: 120rpx;
+  display: inline-block;
+  color: #ccc;
+  border: 2rpx dotted #ccc;
+  font-size:24rpx;
+  vertical-align: top;
+  text-align: center;
+  line-height: 120rpx;
+}
+.action .action-input{
+  margin: 30rpx 0 30rpx 0;
+  background-color: #fff;
+}
+.action .action-input input{
+  margin: 0 auto;
+  width: 90%;
+  padding: 30rpx 0 30rpx 0;
+}
+.action .action-input input:first-child{
+  border-bottom: 2rpx solid #000;
+}
+.action .action-submit button{
+  width: 90%;
+}

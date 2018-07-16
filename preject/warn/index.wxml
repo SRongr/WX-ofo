@@ -1,0 +1,35 @@
+<view class="container">
+  <view class='choose'>
+    <view class='title'>请选择故障类型</view>
+    <checkbox-group class ="choose-group" bindchange="changeCheckbox">
+      <!-- <view wx:for="{{message}}" wx:key= "{{item}}">
+        {{item}}{{index}}
+      </view> -->
+        <block wx:for ="{{itemsvalue}}" wx:key="{{item}}">
+          <view class="grid">
+            <checkbox value='{{item.value}}' checked='{{item.checked}}'></checkbox>{{item.value}}
+          </view>
+        
+        </block>
+    </checkbox-group>
+  </view>
+  <view class='action'>
+    <view>拍摄单车周围环境，便于维修师傅找车</view>
+    <view class='action-photo'>
+      <block wx:for="{{itemsphoto}}" wx:key="{{item}}">
+        <image src='{{item}}'>
+          <icon type='cancel' size='18' bindtap='icontap' data-index="{{index}}"></icon>
+        </image>
+      </block>
+      <text class='take-photos' bindtap='takePhohos'>{{takephotos}}</text>
+    </view>
+    <view class='action-input'>
+        <input name='number' placeholder='请输入车牌号' bindinput='changenum'></input>
+        <input name='desc' placeholder="备注" bindinput='changedesc'></input>
+    </view>
+    <view class='action-submit'>
+      <button type='{{buttonStyle}}' bindtap='submit'>提交</button>
+    </view>
+  </view>
+  
+</view>

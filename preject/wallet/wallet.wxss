@@ -1,0 +1,65 @@
+.container{
+  background-color: #f2f2f2;
+  width: 750rpx;
+  height:100vh
+}
+.container .balance{
+  padding: 40rpx;
+  background-color: #fff;
+  text-align: center;
+}
+.balance .myBalance{
+  
+  font-size: 26rpx;
+}
+.balance .balance-content{
+  font-size: 90rpx;
+  font-weight: bold;
+}
+.balance .balance-info{
+  margin: 30rpx;
+}
+.balance .balance-info text{
+  padding: 2rpx 30rpx;
+  border: 2rpx solid #000;
+  border-radius: 15rpx;
+  font-size: 26rpx;
+}
+.btn {
+  margin: 30rpx;
+}
+.btn button{
+  background-color: #b9dd08
+}
+.myInfo{
+  background-color: #fff;
+
+}
+.myInfo view{
+  padding: 30rpx;
+}
+.myInfo view:first-child{
+  border-bottom: 1px solid #f2f2f2;
+}
+.myInfo .carInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.myInfo .yajin{
+  display: flex;
+  justify-content: space-between;
+}
+.myInfo .yajin .yellowText{
+  font-size: 32rpx;
+  color: yellowgreen;
+}
+.myInfo .yajin .yellowText text{
+  color:#000;
+}
+.about{
+  margin-top: 30rpx;
+  padding: 50rpx 30rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+/* preject/chongzhi/chongzhi.wxss */
+.container{
+  background-color: #f2f2f2;
+  padding: 30rpx;
+}
+.container input{
+  margin: 30rpx 0;
+  padding: 15rpx 0 ;
+  background-color: #fff;
+  text-align: center;
+}
+.btn{
+  background-color: #b9dd08
+}

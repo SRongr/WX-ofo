@@ -1,0 +1,21 @@
+{
+  "pages": [
+   
+      "preject/index/index",
+      "preject/my/my",
+      "preject/wallet/wallet",
+      "preject/warn/index",
+      "preject/use/use",
+     "preject/chongzhi/chongzhi",
+      "preject/scanCode/scanCode"
+      
+      
+      
+],
+"window": {
+  "navigationBarBackgroundColor": "#b9dd08",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "ofo"
+
+}
+}

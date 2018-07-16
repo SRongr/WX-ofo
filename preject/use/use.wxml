@@ -1,0 +1,11 @@
+<view class='container'>
+  <view class='number'>当前车编号 : {{number}}</view>
+  <view class='time'>
+    <view>{{actionText}}</view>
+    <view class='time-content'> {{h}} : {{m}} : {{s}}</view>
+  </view>
+  <view class='endride'>
+    <button type='warn' bindtap='endride' disabled='{{disabled}}'>结束骑行</button>
+    <button type='primary' bindtap='movetoIndex'>回到地图</button>
+  </view>
+</view>
